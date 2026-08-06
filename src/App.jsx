@@ -12,8 +12,8 @@ import {
    CONFIGURACIÓN DE SUPABASE — PEGA AQUÍ TUS DATOS
    Los obtienes en tu proyecto de Supabase: Settings → API
    ============================================================ */
-const SUPABASE_URL = "PEGA_AQUI_TU_SUPABASE_URL";
-const SUPABASE_ANON_KEY = "PEGA_AQUI_TU_SUPABASE_ANON_KEY";
+const SUPABASE_URL = "https://ciwfhbpcpygubsvtmwze.supabase.co";
+const SUPABASE_ANON_KEY = "sb_publishable_AF_54iVTwT25rhMrhWbFXQ_oW2z_NeF";
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
 
